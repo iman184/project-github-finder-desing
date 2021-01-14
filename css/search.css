@@ -1,0 +1,150 @@
+@import url("_utilite.css");
+@import url("_config.css");
+  
+/*modification to navbar*/
+.title-color{
+    color:#F27289;
+    
+}
+.title{
+   text-align: center;
+   padding-top: 20px;
+}
+.center-logo{
+    padding-left: 20px;
+}
+.nav-item{
+    padding-left: 60px;
+}
+.navbar-nav{
+    padding-left: 800px;
+}
+.color-logo{
+    color: #024959;
+    padding-left: 10px;
+}
+.search{
+    background-image: url('../img/search.png');
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/*Seaarch photo and input*/ 
+.logo-search{
+    padding-left: 180px;
+    padding-top: 90px;
+}
+.input-style{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    text-decoration: none;
+  }
+  .button:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F27289;
+    border-radius: 10rem;
+    z-index: -2;
+  }
+  .button:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color:#63B6BF;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+  }
+  .button:hover {
+    color: #fff;
+  }
+  .button:hover:before {
+    width: 100%;
+  }
+  /* optional reset for presentation */
+ 
+  .container {
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  /*card*/
+.column{
+    width: 25%;
+    float: left;
+    padding: 0 0px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width:600px){
+    .column{
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    max-width: 300px;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    border-radius: 40px;
+    padding-bottom: 15px;
+}
+.title{
+    color: gray;
+    font-size: 18px;
+}
+button{
+    border: none;
+    padding: 8px;
+    display:inline-block;
+    color: white;
+    background-color: black;
+    width: 70%;
+    border-radius: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+a:hover,button:hover{
+    opacity: 0.6;
+}
+.position-img{
+padding-top: 30px;    
+padding-left: 10px;
+}
+.bottom{
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+  
