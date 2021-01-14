@@ -1,0 +1,47 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+    height: 100%;
+    
+      }
+     
+      .title-color{
+          color:#F27289;
+          
+      }
+     .title{
+         text-align: center;
+         padding-top: 20px;
+     }
+    
+.header-welcome {  
+  background-image: url("../img/Sans\ titre-5.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 92vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.span{
+    color: #F27289;
+}
+.btn-color{
+    background-color:#F27289;
+    color: white;
+    
+}
+.parag-padd{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.content{
+    position:  relative;
+    
+}
+.first-div{
+    padding-top: 170px;
+}
+.second-div{
+    padding-top: 70px;
+}
